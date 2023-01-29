@@ -20,12 +20,8 @@ img {
 }
 
 .logo {
-    text-decoration: none;
-    color: var(---main);
-    font-family:serif;
-    font-size: 25px;
-    text-transform: uppercase;
-    width: 30%;
+    width: 5%;
+    height: auto;
 }
 
 .log {
@@ -49,7 +45,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 20px;
+    padding: 8px 20px;
     /* position: sticky; */
 }
 
@@ -115,7 +111,9 @@ img {
 .input .fa-solid {
     position: absolute;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 17%;
+    color: var(---hero);
+    font-size: 20px;
 }
 .form .text .black {
     background-color: black;

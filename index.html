@@ -7,13 +7,14 @@
     <title>jiji.ng</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="font/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!--====navbar===-->
     <div class="header">
         <div class="container">
             <nav class="navbar">
-                <a href="#" class="logo">j<span class="log">i</span>j<span class="log">i</span></a>
+                <a href="#" class="logo"><img src="img/logo.png"></span></a>
                 <div class="app-header">
                     <a href="#" class="signin lnk">sign in</a>
                     <a href="#" class="signup lnk">register</a>
@@ -31,7 +32,7 @@
                     <div class="text">
                         <h4>Find anything in <span class="black"><i class="fa-solid fa-location-dot"></i>All Nigeria</span></h4>
                         <div class="input">
-                            <i class="fa-solid fa-location-dot"></i>
+                            <i class="fa-solid fa-magnifying-glass"></i>
                             <input type="search" class="search-bar" placeholder="i am looking for.."  >
                         </div>
                     </div>
@@ -85,77 +86,77 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <div class="card-inner">
                         <img src="img/beauty.png">
                         <p>Health & Beauty</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <div class="card-inner">
                         <img src="img/fashion.png">
                         <p>Fashion</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <div class="card-inner">
                         <img src="img/hobbies.png">
                         <p>Sports, Arts & Outdoors</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <div class="card-inner">
                         <img src="img/services.png">
                         <p>Services</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <div class="card-inner">
                         <img src="img/jobseekers.png">
                         <p>Seeking Work CVs</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <div class="card-inner">
                         <img src="img/jobs.png">
                         <p>Jobs</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <div class="card-inner">
                         <img src="img/babies.png">
                         <p>Babies & kids</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <div class="card-inner">
                         <img src="img/animals.png">
                         <p>Animals & pets</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <div class="card-inner">
                         <img src="img/agriculture.png">
                         <p>Agriculture & Food</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <div class="card-inner">
                         <img src="img/equipment.png">
                         <p>Commercial Equipment & Tools</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="fade-up">
                     <div class="card-inner">
                         <img src="img/repair.png">
                         <p>Repair & Construction</p>
@@ -227,5 +228,13 @@
         </div>
         
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000
+      });
+    </script>
 </body>
 </html>
