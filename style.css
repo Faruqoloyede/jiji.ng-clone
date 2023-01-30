@@ -19,27 +19,21 @@ img {
     height: auto;
 }
 
-.logo {
-    width: 5%;
-    height: auto;
-}
-
-.log {
-    text-transform: lowercase;
-    font-size:20px;
-}
-
 .header {
     width: 100vh;
     width: 100%;
     background-color: var(---navbar);
 }
 
-/* .container {
+.container {
     max-width: 81rem;
     margin: 0 auto;
     padding: 20px 40px;
-} */
+}
+
+.logo {
+    width: 5%;
+}
 
 .navbar {
     display: flex;
@@ -156,6 +150,13 @@ input::placeholder {
     height: auto;
 }
 
+.adds {
+    background-color: #eb5757;
+    color: #ebf2f7;
+    font-size: 100px;
+    border-radius: 50%;
+    padding: 5px 20px;
+}
 .card-inner img {
     /* width: 65%;
     height: 65%; */
@@ -219,6 +220,14 @@ input::placeholder {
     color: var(---text)
 }
 
+.mobile-footer {
+    display: none;
+}
+
+.copyright-text p {
+    display: none;
+}
+
 @media (max-width:640px) {
     .hidden {
         display: none;
@@ -228,11 +237,94 @@ input::placeholder {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 2px;
-        padding: 15px 0px;
+        padding: 0px 0px;
         /* margin-bottom: 12rem; */
     }
 
     .sell {
         display: none;
     }
+
+    .logo {
+        width: 20%;
+    }
+
+    .navbar {
+        padding: 8px 10px;
+    }
+
+    .hero {
+        height: 40vh;
+    }
+
+    .form {
+        margin-top: 20%;
+    }
+
+    .form .text h4 {
+        text-align: center;
+        margin-left: 50px;
+    }
+
+    input {
+        padding: 18px 72px 18px 50px;
+        border: 0;
+        width: 100%;
+        margin-left: 30px;
+        outline: none;
+        border-radius: 3px;
+    }
+
+    .input .fa-solid {
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 12%;
+        color: var(---hero);
+        font-size: 25px;
+    }
+
+   .footer-img {
+        display: none;
+   }
+
+   .footer-grid {
+    display: none;
+   }
+
+   .footer {
+    background-color: var(---main);
+   }
+
+.links .link {
+    color: var(---navbar);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+   .mobile-footer {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   }
+
+   .logo2 {
+    width: 50%;
+   }
+
+   .copyright-text {
+    background-color: var(---navbar);
+    padding: 15px 0px;
+    font-size: 12px;
+   }
+
+   .copyright-text p {
+    text-align: center;
+    font-family: sans-serif ;
+    color: var(---text);
+    display: block;
+   }
+
+   .adds {
+    font-size: 50px;
+   }
 }
